@@ -1,0 +1,37 @@
+{
+  "kind": "collectionType",
+  "collectionName": "projects",
+  "info": {
+    "singularName": "project",
+    "pluralName": "projects",
+    "displayName": "Project"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "richtext"
+    },
+    "Link": {
+      "type": "string"
+    },
+    "Position": {
+      "type": "integer",
+      "min": 0
+    },
+    "Type": {
+      "type": "enumeration",
+      "enum": [
+        "design",
+        "art"
+      ]
+    }
+  }
+}
