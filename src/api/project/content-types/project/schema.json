@@ -4,11 +4,10 @@
   "info": {
     "singularName": "project",
     "pluralName": "projects",
-    "displayName": "Project"
+    "displayName": "Project",
+    "description": ""
   },
   "options": {
-    "increments": true,
-    "timestamps": true,
     "draftAndPublish": true
   },
   "pluginOptions": {},
@@ -32,6 +31,16 @@
         "design",
         "art"
       ]
+    },
+    "Images": {
+      "allowedTypes": [
+        "images",
+        "videos",
+        "audios",
+        "files"
+      ],
+      "type": "media",
+      "multiple": true
     }
   }
 }
